@@ -15,20 +15,21 @@ a {
 
 nav {
   text-align: center;
-  width: 180px;
+  width: 100%;
 }
 
 nav img {
   display: block;
   margin: 0 auto;
+  width: 180px;
 }
 
 nav span {
-  display: block;
+  display: inline-block;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin: 10px 0;
+  margin: 20px 80px;
 }
 
 nav a {
@@ -57,12 +58,13 @@ nav a {
   background-color: #05A8AA;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 40px;
-  width: 68%;
-  padding: 20px;
+  width: 100%;
+  padding: 10px;
   margin: 0 auto;
+  opacity: 0.75;
 }
 
 
@@ -79,6 +81,7 @@ nav a {
   line-height: 34px;
   width: 90%;
   margin-top: 18px;
+  text-align: left;
 }
 
 /* Content Button */
@@ -107,12 +110,13 @@ ul.nutrition {
 }
 
 ul.nutrition li {
-  display: inline-block;
+  display: block;
+  text-align: center;
   background-color: #05A8AA;
   list-style: none;
   width: 200px;
   padding: 10px 20px;
-  margin-bottom: 3px;
+  margin: 0 auto 3px auto;
 }
 
 .nutrition .category {
@@ -124,7 +128,7 @@ ul.nutrition li {
 
 .nutrition .value {
   color: white;
-  font-size: 26px;
+  font-size: 26px;  
   font-weight: 700;
   letter-spacing: 2px;
 }
