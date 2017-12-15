@@ -1,0 +1,28 @@
+h1 {
+  color: orangered;
+}
+
+body {
+  font-family: Georgia;
+}
+
+.about-me {
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: turquoise;
+}
+
+.about-me {
+  opacity: 0.5;
+}
+
+.title {
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/selga.png")
+}
